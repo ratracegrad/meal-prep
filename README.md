@@ -3,7 +3,7 @@
 This is the source code for a four-part series I wrote on creating a Vue.js application that also uses Vue-Router, Vuetify and Vuex. The articles take you through creating a Vue application and then adding on to it until you have created a fully functional meal delivery website.
 
 Here is what we create in the articles:  
-![](https://github.com/ratracegrad/meal-prep.git/screenshots/meal-prep.png)
+![](https://github.com/ratracegrad/meal-prep/screenshots/meal-prep.png)
 
 ## Links to the Articles
 
