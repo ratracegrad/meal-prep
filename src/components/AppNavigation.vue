@@ -49,7 +49,7 @@ export default {
     },
     methods: {
         logout() {
-            this.$store.dispatch('userSignOut');cd
+            this.$store.dispatch('userSignOut');
         }
     }
 };
