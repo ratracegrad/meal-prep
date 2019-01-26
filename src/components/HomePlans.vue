@@ -3,7 +3,7 @@
         <v-layout row>
             <v-flex xs12 class="text-xs-center display-1 font-weight-black my-5">Available Meal Plans</v-flex>
         </v-layout>
-        <v-layout row wrap>
+        <v-layout row wrap class="meal-plans">
             <v-flex xs12 sm12 md4>
                 <v-card>
                     <v-responsive>
@@ -27,7 +27,8 @@
                     </v-card-text>
 
                     <v-card-actions v-if="['menu'].includes($route.name)">
-                        <v-btn outline block color="green" @click="showRecipes('keto')">Select This Plan</v-btn>
+                        <v-btn outline block color="green" @click="showRecipes('keto')" data-cy="plansKetoBtn">
+                            Select This Plan</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -55,7 +56,8 @@
                     </v-card-text>
 
                     <v-card-actions v-if="['menu'].includes($route.name)">
-                        <v-btn outline block color="green" @click="showRecipes('paleo')">Select This Plan</v-btn>
+                        <v-btn outline block color="green" @click="showRecipes('paleo')" data-cy="plansPaleoBtn">
+                            Select This Plan</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -83,7 +85,8 @@
                     </v-card-text>
 
                     <v-card-actions v-if="['menu'].includes($route.name)">
-                        <v-btn outline block color="green" @click="showRecipes('vegan')">Select This Plan</v-btn>
+                        <v-btn outline block color="green" @click="showRecipes('vegan')" data-cy="plansVeganBtn">
+                            Select This Plan</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>

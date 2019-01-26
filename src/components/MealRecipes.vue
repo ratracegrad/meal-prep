@@ -2,7 +2,7 @@
     <v-container grid-list-lg>
         <v-layout row wrap>
             <v-flex xs12 sm6 md6 lg4 v-for="(item, idx) in recipes" :key="idx">
-                <v-card>
+                <v-card data-cy="recipeEntry">
                     <v-responsive>
                         <v-img :src="item.recipe.image"></v-img>
                     </v-responsive>
@@ -17,7 +17,7 @@
                     </v-card-text>
 
                     <v-card-actions>
-                        <v-btn color="green" dark @click="orderRecipe(item.recipe)">Order</v-btn>
+                        <v-btn color="green" dark @click="orderRecipe(item)">Order</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>

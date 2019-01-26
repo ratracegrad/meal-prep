@@ -40,6 +40,16 @@ export default new Vuex.Store({
                         to: 9
                     }
                 });
+                // sbdinc keys
+                // let response = await axios.get(`${state.apiUrl}`, {
+                //     params: {
+                //         q: plan,
+                //         app_id: '903de977',
+                //         app_key: '1b5fbf78de2db637b392f141c524222c\t',
+                //         from: 0,
+                //         to: 9
+                //     }
+                // });
                 commit('setRecipes', response.data.hits);
             } catch (error) {
                 commit('setRecipes', []);
@@ -95,7 +105,7 @@ export default new Vuex.Store({
                 .database()
                 .ref('users')
                 .child(state.user.user.uid)
-                .push(payload.label);
+                .push(payload.recipe.label);
         },
         getUserRecipes({ state, commit }) {
             return firebase

@@ -8,8 +8,11 @@ import '@/firebase/';
 
 Vue.config.productionTip = false;
 
-new Vue({
+const app = new Vue({
     router,
     store,
     render: h => h(App)
 }).$mount('#app');
+if (window.Cypress) {
+    window.app = app;
+}

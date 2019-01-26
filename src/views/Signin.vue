@@ -7,18 +7,19 @@
                         <v-toolbar-title>Login Form</v-toolbar-title>
                     </v-toolbar>
                     <v-card-text>
-                        <v-form ref="form" v-model="valid" lazy-validation>
+                        <v-form ref="form" v-model="valid" >
                             <v-text-field prepend-icon="person" name="email" label="Email" type="email"
-                                          v-model="email" :rules="emailRules" required>
+                                          v-model="email" :rules="emailRules" required data-cy="signinEmailField">
                             </v-text-field>
-                            <v-text-field prepend-icon="lock" name="password" label="Password" id="password"
-                                          type="password" required v-model="password" :rules="passwordRules">
+                            <v-text-field prepend-icon="lock" name="password" label="Password" type="password"
+                                          data-cy="signinPasswordField" v-model="password"
+                                          :rules="passwordRules" required>
                             </v-text-field>
                         </v-form>
                     </v-card-text>
                     <v-card-actions>
                         <v-spacer></v-spacer>
-                        <v-btn color="primary" :disabled="!valid" @click="submit">Login</v-btn>
+                        <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="signinSubmitBtn">Login</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
