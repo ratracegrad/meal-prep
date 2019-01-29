@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 // https://docs.cypress.io/api/introduction/api.html
 /* eslint-env mocha */
 /* global cy */
