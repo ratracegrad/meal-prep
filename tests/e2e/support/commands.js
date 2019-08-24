@@ -23,7 +23,9 @@ Cypress.Commands.add(
             }
         });
         getStore().then(store => {
-            cy.log(`calling store userLogin with email: ${email} password: ${password}`);
+            cy.log(
+                `calling store userLogin with email: ${email} password: ${password}`
+            );
             store.dispatch('userLogin', { email, password });
         });
     }

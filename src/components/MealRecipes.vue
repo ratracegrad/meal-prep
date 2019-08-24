@@ -8,16 +8,24 @@
                     </v-responsive>
 
                     <v-card-text>
-                        <div class="title my-5">{{item.recipe.label}}</div>
+                        <div class="title my-5">{{ item.recipe.label }}</div>
 
                         <div class="subheading">Ingredients</div>
                         <ul>
-                            <li v-for="(ingredient, i) in item.recipe.ingredientLines" :key="i">{{ingredient}}</li>
+                            <li
+                                v-for="(ingredient, i) in item.recipe
+                                    .ingredientLines"
+                                :key="i"
+                            >
+                                {{ ingredient }}
+                            </li>
                         </ul>
                     </v-card-text>
 
                     <v-card-actions>
-                        <v-btn color="green" dark @click="orderRecipe(item)">Order</v-btn>
+                        <v-btn color="green" dark @click="orderRecipe(item)"
+                            >Order</v-btn
+                        >
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -48,5 +56,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

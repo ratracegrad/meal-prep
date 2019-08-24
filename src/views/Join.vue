@@ -8,18 +8,39 @@
                     </v-toolbar>
                     <v-card-text>
                         <v-form ref="form" v-model="valid" lazy-validation>
-                            <v-text-field prepend-icon="person" name="email" label="Email" type="email"
-                                          v-model="email" :rules="emailRules" data-cy="joinEmailField" required>
+                            <v-text-field
+                                prepend-icon="person"
+                                name="email"
+                                label="Email"
+                                type="email"
+                                v-model="email"
+                                :rules="emailRules"
+                                data-cy="joinEmailField"
+                                required
+                            >
                             </v-text-field>
-                            <v-text-field prepend-icon="lock" name="password" label="Password"
-                                          type="password" required v-model="password" :rules="passwordRules"
-                                          data-cy="joinPasswordField">
+                            <v-text-field
+                                prepend-icon="lock"
+                                name="password"
+                                label="Password"
+                                type="password"
+                                required
+                                v-model="password"
+                                :rules="passwordRules"
+                                data-cy="joinPasswordField"
+                            >
                             </v-text-field>
                         </v-form>
                     </v-card-text>
                     <v-card-actions>
                         <v-spacer></v-spacer>
-                        <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="joinSubmitBtn">Join</v-btn>
+                        <v-btn
+                            color="primary"
+                            :disabled="!valid"
+                            @click="submit"
+                            data-cy="joinSubmitBtn"
+                            >Join</v-btn
+                        >
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -60,5 +81,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
