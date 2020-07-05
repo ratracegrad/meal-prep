@@ -10,15 +10,14 @@
                 <v-card>
                     <v-responsive>
                         <v-img
-                            src="http://source.unsplash.com/hjCA3ecCXAQ"
+                            src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1593909056/Ewa-agoyin_vyq1kx.jpg"
                             height="500px"
                         >
                             <v-container fill-height fluid>
                                 <v-layout fill-height>
                                     <v-flex xs12 align-end flexbox>
                                         <span class="headline white--text"
-                                            >KETO</span
-                                        >
+                                            >Ewa Goin</span >
                                     </v-flex>
                                 </v-layout>
                             </v-container>
@@ -27,12 +26,10 @@
 
                     <v-card-text>
                         <div>
-                            <h3 class="headline mb-0">Keto</h3>
+                            <h3 class="headline mb-0">Ewa AGoin</h3>
                             <div>
-                                The Keto diet is a high-fat, adequate-protein,
-                                low-carbohydrate diet. The diet forces the body
-                                to burn fats rather than carbohydrates by
-                                putting the body into ketosis.
+                            Growing up, the combination of Ewa Agoyin and the Ewa Agoyin sauce served with it had to be the best thing that ever happened to my beans diet. 
+                            Remember how I used to listen out for the hawkers every weekend, food bowl at the ready….good times?.
                             </div>
                         </div>
                     </v-card-text>
@@ -55,14 +52,14 @@
                 <v-card>
                     <v-responsive>
                         <v-img
-                            src="http://source.unsplash.com/6S27S6pZ6o0"
+                            src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1593909441/download_1_ijax9a.jpg"
                             height="500px"
                         >
                             <v-container fill-height fluid>
                                 <v-layout fill-height>
                                     <v-flex xs12 align-end flexbox>
                                         <span class="headline white--text"
-                                            >PALEO</span
+                                            >Okro Soup</span
                                         >
                                     </v-flex>
                                 </v-layout>
@@ -72,12 +69,10 @@
 
                     <v-card-text>
                         <div>
-                            <h3 class="headline mb-0">Paleo</h3>
+                            <h3 class="headline mb-0">Okro Soup</h3>
                             <div>
-                                The Paleo diet requires the predominant
-                                consumption of foods presumed to have been the
-                                only foods available to or consumed by humans
-                                during the Paleolithic era.
+                            Unlike ogbono soup and Ewedu soup, Okro soup has a viscous texture and tatse which makes it one of my favorite soups. It is a thick delicious, 
+                            and hearty soup made from the Wild mango seeds, and it has a ton of nutritional benefits.
                             </div>
                         </div>
                     </v-card-text>
@@ -100,14 +95,14 @@
                 <v-card>
                     <v-responsive>
                         <v-img
-                            src="http://source.unsplash.com/1SPu0KT-Ejg"
+                            src="https://res.cloudinary.com/unitech-global-resource/image/upload/v1593909476/Nigerian-Chicken-Stew-Red-Tomato-Stew-4_1_jhtlzd.jpg"
                             height="500px"
                         >
                             <v-container fill-height fluid>
                                 <v-layout fill-height>
                                     <v-flex xs12 align-end flexbox>
                                         <span class="headline white--text"
-                                            >VEGAN</span
+                                            >Rice and Stew</span
                                         >
                                     </v-flex>
                                 </v-layout>
@@ -117,12 +112,10 @@
 
                     <v-card-text>
                         <div>
-                            <h3 class="headline mb-0">Vegan</h3>
+                            <h3 class="headline mb-0">Rice and Stew</h3>
                             <div>
-                                The vegan diet abstains from the use of animal
-                                products. The vegan diet does not consume meat,
-                                diary products, eggs or any all other
-                                animal-derived ingredients.
+                            The Nigerian White Rice and Stew is a popular Nigerian rice recipe because it lets you eat rice with any stew or sauce of your choice. 
+                            This rice recipe is usually eaten with Beef and/or Chicken Stew
                             </div>
                         </div>
                     </v-card-text>

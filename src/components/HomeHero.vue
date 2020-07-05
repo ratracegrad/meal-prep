@@ -7,11 +7,11 @@
             <div
                 class="display-4 font-weight-black white--text text-xs-center mb-3"
             >
-                FOR YOUR TABLE
+                FOR YOUR BELLY
             </div>
             <div class="display-1 font-weight-bold white--text text-xs-center">
                 Finally be a foodie at home with fresh, chef-prepared meals
-                delivered daily to your door.
+                delivered daily to your door steps by Foodie expert Sam.
             </div>
             <v-btn fab class="mt-5 brown darken-4">
                 <v-icon large color="white">expand_more</v-icon>
